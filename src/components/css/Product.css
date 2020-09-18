@@ -1,0 +1,53 @@
+.Shoes-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-shadow: 0 0 5px #ccc;
+    box-sizing: border-box;
+    min-height: 500px;
+    padding: 20px 15px;
+}
+
+.card {
+    box-shadow: 7px 7px 10px lightgray;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.card img {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    min-width: 100%;
+    padding: 20px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.content a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.content span {
+    color: crimson;
+    margin: 10px 0;
+}
+
+.content p {
+    padding: 10px 0;
+}
+
+.content button {
+    width: 100%;
+    text-transform: uppercase;
+    background-color: #333;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 15px;
+    padding: 10px;
+}
